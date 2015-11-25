@@ -1,0 +1,122 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
+
+/* Variables */
+$mother-style-color:#D73F28;
+$white-color:#fff;
+$background-color:#000;
+
+
+body {
+    background-image: url("../img/check.png");
+    color:$white-color;
+}
+
+.jumbotron{
+	background-color: $background-color !important;
+	border-width:5px;
+	border-bottom-style:double;
+    border-color: $white-color;
+}
+
+.navbar-inverse{
+	background-color: $mother-style-color !important;
+	border-color: $background-color !important;
+}
+
+.navbar-nav li a{
+	color:$white-color !important;
+
+}
+
+.dropdown-menu li a{
+	background-color: $mother-style-color !important;
+}
+
+.navbar-nav li .dropdown-menu{
+	background-color: $mother-style-color !important;
+}
+
+.dropdown-menu .divider{
+	background-color: $mother-style-color !important;	
+}
+
+.btn-sm{
+	margin: 0 3px !important;
+}
+
+.window{
+	background-color: $background-color;
+	border-radius: 10px;
+	border-width:5px;	
+    border-style:double;
+    border-color: $white-color;
+    margin: 10px;
+}
+
+#sidebar{
+   	width: 500px;
+    background: $background-color;
+}
+
+
+.left{
+	float:left !important;
+}
+
+hr{
+	border-top: 1px solid $background-color !important;
+} 
+
+footer p{
+	color:$background-color;
+}
+
+img{
+	display:block;
+    margin:auto;
+}
+
+iframe{
+	display:block;
+    margin:auto;
+}
+
+p{
+	color:$white-color;
+}
+
+li{
+	color:$white-color;	
+	list-style-type: none;
+}
+
+h2{
+	color:$white-color !important;
+}
+
+#textCenter{
+	text-align: center;
+}
+
+.fa-lg{
+	color:$background-color !important;
+}
+
+
+@media only screen and (max-width : 590px) {
+      .jumbotron{
+          display: none !important;
+     	}
+
+      .top{
+      	margin-top:60px;
+      }			
+}
+
+@media only screen and (max-width : 507px) {
+      #content{
+          height: 200px !important;
+          width: 200px !important;
+     	}      
+}
+
